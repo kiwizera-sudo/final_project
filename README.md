@@ -34,7 +34,33 @@ This system fully satisfies all 8 phases of the capstone project with bonus feat
 
   ### 3.Logical Model Design with data dictionary and assumptions
   ![](https://github.com/kiwizera-sudo/final_project/blob/b8394655471ad7218f52fb874dd7aa0cf14f92f6/erd.png)
+  ### Assumptions
+###   Business Rules
 
+  One user can have multiple accounts (one-to-many relationship)
+  Each transaction belongs to one account (sender's account)
+  Alerts and security logs are user-specific, not account-specific
+  Holidays affect transaction processing (may cause delays or restrictions)
+
+###  Data Assumptions
+
+  Currency is implied (likely single currency system - no currency field)
+  Destination_number can be phone or account (supports mobile money transfers)
+  Balance can be negative (no constraint shown - may allow overdrafts)
+  Transactions are one-way records (only source account tracked, not destination account_id)
+
+###  Security Assumptions
+
+  All user activities are logged in security_log for audit trail
+  Alerts are stored historically (no deletion, for compliance)
+  Account_status controls access (suspended/blocked users can't transact)
+
+###  Technical Assumptions
+
+  Decimal(12,2) for money = supports up to 999 million with 2 decimal places
+  Date fields store timestamps (though type shows 'date', likely datetime in practice)
+  NN (Not Null) fields are mandatory for data integrity
+  No soft deletes shown (records are permanent or hard-deleted)
 
 
 
