@@ -112,9 +112,17 @@ tables where created successfully
 ### 6. Advanced Programming & Auditing
 
   *** TRIGGERS ***
-  ![](https://github.com/kiwizera-sudo/final_project/blob/72cb0ae5b4820b1cb18534a8139c7175ec037cbe/trigger.png)
+
+  
   ![](https://github.com/kiwizera-sudo/final_project/blob/72cb0ae5b4820b1cb18534a8139c7175ec037cbe/triggerest.png)
+
+  
   ![](https://github.com/kiwizera-sudo/final_project/blob/72cb0ae5b4820b1cb18534a8139c7175ec037cbe/triggerest2.png)
+
+
+  ### test results for my trigger shows that if any one trys to make any transaction on work days it doesn't allow them
+
+  ![](https://github.com/kiwizera-sudo/final_project/blob/635e0b9745dd01c2fe1e3cd8c427a81a6e7944ca/triggerworks.png)
 
 
 
