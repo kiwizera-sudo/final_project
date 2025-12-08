@@ -27,7 +27,13 @@ This system fully satisfies all 8 phases of the capstone project with bonus feat
 
   ### 2.Business Process Modeling
   ![](https://github.com/kiwizera-sudo/final_project/blob/340e77e23e350958a958aca72191a17cd9c2b8de/uml.png)
-  
+  Customer sends money
+  Core System validates the request (checks balance, receiver) and creates a pending transaction
+  Fraud Detection calculates a risk score - if score > 70, flags as suspicious
+  Analyst Review - human reviews flagged transactions and either approves, rejects, or brokers them
+
+  ### 3.Logical Model Design
+
 
 
 
