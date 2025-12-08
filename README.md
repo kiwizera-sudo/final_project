@@ -63,15 +63,22 @@ This system fully satisfies all 8 phases of the capstone project with bonus feat
   No soft deletes shown (records are permanent or hard-deleted)
   ###  Data Dictionary
   ![](https://github.com/kiwizera-sudo/final_project/blob/787c1f8417b37c0e1a4e17a1277e85a5dea141b9/Screenshot%20(144).png)
+  
   ![](https://github.com/kiwizera-sudo/final_project/blob/8ec7751c8b5d7fe52b40b2c51eeb8ad0c0f0526a/Screenshot%20(145).png)
+  
   ![](https://github.com/kiwizera-sudo/final_project/blob/20d2def5af1cd56ed920e74eb159b7997d63df0a/Screenshot%20(146).png)
+  
   ![](https://github.com/kiwizera-sudo/final_project/blob/c02caa001d318ecf21fc3117602d970c0f0d56c0/Screenshot%20(147).png)
+  
   ![](https://github.com/kiwizera-sudo/final_project/blob/c02caa001d318ecf21fc3117602d970c0f0d56c0/Screenshot%20(148).png)
+  
   ![](https://github.com/kiwizera-sudo/final_project/blob/8b656bdb4da33de8d639ab2278528ec8f592a804/account.png)
 
 ### 4. Table Implementation & Data Insertion
 ![](https://github.com/kiwizera-sudo/final_project/blob/2a0bf6d3663d8e14b28623bde7e9b63167c8ccab/tables.png)
+
 ![](https://github.com/kiwizera-sudo/final_project/blob/11e557fa6e865441e2747403bcd4f248fa52fe37/tables2.png)
+
 ![](https://github.com/kiwizera-sudo/final_project/blob/74615d7d4f345dea1fb15dcee6a1431e002608b1/created.png)
 tables where created successfully
 ### i inserted some data
@@ -85,18 +92,24 @@ tables where created successfully
 
 ** procedures **
 ![](https://github.com/kiwizera-sudo/final_project/blob/f8aba1813a72aff425b19cd0114280ef33cd4e8b/procedureadd.png)
+
 ![](https://github.com/kiwizera-sudo/final_project/blob/f8aba1813a72aff425b19cd0114280ef33cd4e8b/procedureadd2.png)
 
 ** Cursors **
 
 ![](https://github.com/kiwizera-sudo/final_project/blob/b87ec3c4453ded063a72f129b4f9bf8f4e531b3d/cursor.png)
+
 [![]()](https://github.com/kiwizera-sudo/final_project/blob/b87ec3c4453ded063a72f129b4f9bf8f4e531b3d/cursor2.png)
 
 
 ** Packages **
-![]()
-![]()
-![]()
+![](https://github.com/kiwizera-sudo/final_project/blob/b9d7d590e65f7e970beeafe830efe55e738dcf36/package1.png)
+
+![](https://github.com/kiwizera-sudo/final_project/blob/b9d7d590e65f7e970beeafe830efe55e738dcf36/package2.png)
+
+![](https://github.com/kiwizera-sudo/final_project/blob/b9d7d590e65f7e970beeafe830efe55e738dcf36/package3.png)
+
+
   
 
 
