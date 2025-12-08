@@ -67,7 +67,7 @@ This system fully satisfies all 8 phases of the capstone project with bonus feat
   ![](https://github.com/kiwizera-sudo/final_project/blob/20d2def5af1cd56ed920e74eb159b7997d63df0a/Screenshot%20(146).png)
   ![](https://github.com/kiwizera-sudo/final_project/blob/c02caa001d318ecf21fc3117602d970c0f0d56c0/Screenshot%20(147).png)
   ![](https://github.com/kiwizera-sudo/final_project/blob/c02caa001d318ecf21fc3117602d970c0f0d56c0/Screenshot%20(148).png)
-  ![](https://github.com/kiwizera-sudo/final_project/blob/c02caa001d318ecf21fc3117602d970c0f0d56c0/.png)
+  ![](https://github.com/kiwizera-sudo/final_project/blob/8b656bdb4da33de8d639ab2278528ec8f592a804/account.png)
   
 
 
