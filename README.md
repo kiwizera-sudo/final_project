@@ -21,9 +21,12 @@ This system fully satisfies all 8 phases of the capstone project with bonus feat
 - Realistic Rwandan data (names, phone numbers, balances, transactions)
 - 3NF normalized schema with proper constraints and sequences
 
-  ### Create and configure Oracle pluggable database
+  ### 1.Create and configure Oracle pluggable database
 
   ![](https://github.com/kiwizera-sudo/final_project/blob/b6d816b5c2fe5a37fd625063b4f3183f37b36981/pdb.png)
+
+  ### 2.Business Process Modeling
+  ![]()
   
 
 
