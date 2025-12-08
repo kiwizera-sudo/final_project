@@ -26,7 +26,7 @@ This system fully satisfies all 8 phases of the capstone project with bonus feat
   ![](https://github.com/kiwizera-sudo/final_project/blob/b6d816b5c2fe5a37fd625063b4f3183f37b36981/pdb.png)
 
   ### 2.Business Process Modeling
-  ![]()
+  ![](https://github.com/kiwizera-sudo/final_project/blob/340e77e23e350958a958aca72191a17cd9c2b8de/uml.png)
   
 
 
