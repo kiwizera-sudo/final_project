@@ -112,7 +112,9 @@ tables where created successfully
 ### 6. Advanced Programming & Auditing
 
   *** TRIGGERS ***
-  ![]()
+  ![](https://github.com/kiwizera-sudo/final_project/blob/72cb0ae5b4820b1cb18534a8139c7175ec037cbe/trigger.png)
+  ![](https://github.com/kiwizera-sudo/final_project/blob/72cb0ae5b4820b1cb18534a8139c7175ec037cbe/triggerest.png)
+  ![](https://github.com/kiwizera-sudo/final_project/blob/72cb0ae5b4820b1cb18534a8139c7175ec037cbe/triggerest2.png)
 
 
 
