@@ -107,7 +107,7 @@ tables where created successfully
 
 ![](https://github.com/kiwizera-sudo/final_project/blob/b9d7d590e65f7e970beeafe830efe55e738dcf36/package2.png)
 
-![](https://github.com/kiwizera-sudo/final_project/blob/b9d7d590e65f7e970beeafe830efe55e738dcf36/package3.png)
+![](https://github.com/kiwizera-sudo/final_project/blob/b9d7d590e65f7e970beeafe830efe55e738dcf36/pacakge3.png)
 
 
   
