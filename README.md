@@ -61,7 +61,9 @@ This system fully satisfies all 8 phases of the capstone project with bonus feat
   Date fields store timestamps (though type shows 'date', likely datetime in practice)
   NN (Not Null) fields are mandatory for data integrity
   No soft deletes shown (records are permanent or hard-deleted)
+  ###  Data Dictionary
   ![](https://github.com/kiwizera-sudo/final_project/blob/787c1f8417b37c0e1a4e17a1277e85a5dea141b9/Screenshot%20(144).png)
+  ![](https://github.com/kiwizera-sudo/final_project/blob/8ec7751c8b5d7fe52b40b2c51eeb8ad0c0f0526a/Screenshot%20(145).png)
 
 
 
