@@ -33,6 +33,7 @@ This system fully satisfies all 8 phases of the capstone project with bonus feat
   Analyst Review - human reviews flagged transactions and either approves, rejects, or brokers them
 
   ### 3.Logical Model Design with data dictionary and assumptions
+  ![](https://github.com/kiwizera-sudo/final_project/blob/b8394655471ad7218f52fb874dd7aa0cf14f92f6/erd.png)
 
 
 
