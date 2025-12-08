@@ -86,6 +86,11 @@ tables where created successfully
 ** procedures **
 ![](https://github.com/kiwizera-sudo/final_project/blob/f8aba1813a72aff425b19cd0114280ef33cd4e8b/procedureadd.png)
 ![](https://github.com/kiwizera-sudo/final_project/blob/f8aba1813a72aff425b19cd0114280ef33cd4e8b/procedureadd2.png)
+
+** Cursors **
+
+![]()
+![]()
   
 
 
