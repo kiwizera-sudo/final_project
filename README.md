@@ -32,7 +32,7 @@ This system fully satisfies all 8 phases of the capstone project with bonus feat
   Fraud Detection calculates a risk score - if score > 70, flags as suspicious
   Analyst Review - human reviews flagged transactions and either approves, rejects, or brokers them
 
-  ### 3.Logical Model Design
+  ### 3.Logical Model Design with data dictionary and assumptions
 
 
 
