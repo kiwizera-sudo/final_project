@@ -77,7 +77,11 @@ tables where created successfully
 ### i inserted some data
 ![](https://github.com/kiwizera-sudo/final_project/blob/b0eaad3bb26d7df5c41df402bc5a82a137c1cdd2/insert_to_test.png)
 
-### 5.  Database Interaction & Transactions
+### 5.  Database Interaction & Transactions 
+
+
+** functions implementated ** 
+![](https://github.com/kiwizera-sudo/final_project/blob/def59f4ca79c62a81bf60fc414974aa9219f2fd1/function.png)
   
 
 
