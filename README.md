@@ -82,6 +82,10 @@ tables where created successfully
 
 ** functions implementated ** 
 ![](https://github.com/kiwizera-sudo/final_project/blob/def59f4ca79c62a81bf60fc414974aa9219f2fd1/function.png)
+
+** procedures **
+![](https://github.com/kiwizera-sudo/final_project/blob/f8aba1813a72aff425b19cd0114280ef33cd4e8b/procedureadd.png)
+![](https://github.com/kiwizera-sudo/final_project/blob/f8aba1813a72aff425b19cd0114280ef33cd4e8b/procedureadd2.png)
   
 
 
