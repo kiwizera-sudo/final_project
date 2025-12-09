@@ -1,0 +1,9 @@
+The Safe Mobile Money Transaction Monitoring & Fraud Detection System is an Oracle-based PL/SQL solution designed
+to secure mobile money operations by detecting suspicious behavior, preventing fraud, and maintaining transactional 
+integrity in real time. The system includes core tables for users, accounts, transactions, alerts, security logs, 
+and holidays—supporting both operational data and compliance requirements. With robust PL/SQL components such as 
+procedures for adding transactions, functions for fraud scoring, packages for automated risk evaluation, and compound
+triggers to restrict weekday/holiday modifications, the system ensures strong auditing, security enforcement, and 
+transparent logging. This project demonstrates the use of Oracle sequences, constraints, 
+exception handling, and business rules to create a fully functional, secure, and intelligent mobile money monitoring 
+environment capable of supporting analytics and future BI enhancements.
