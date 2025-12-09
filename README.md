@@ -1,6 +1,6 @@
 # Safe Mobile Money Transactions & Fraud Detection System  
-**PL/SQL**
-**Student**: Dieudonne | **ID**: 27623 | **Group**: wednesday
+
+**Student**: Kwizera Dieudonne | **ID**: 27623 | **Group**: wednesday
 **Lecturer**: Eric Maniraguha  
 
 
