@@ -1,6 +1,6 @@
 # Safe Mobile Money Transactions & Fraud Detection System  
 
-**Student**: Kwizera Dieudonne | **ID**: 27623 | **Group**: wednesday
+**NAMES**: Kwizera Dieudonne | **ID**: 27623 | **Group**: wednesday
 **Lecturer**: Eric Maniraguha  
 
 
@@ -11,6 +11,24 @@
 ### Project Overview
 A production-ready Oracle PL/SQL solution that secures mobile money transactions through real-time fraud detection, automated alerts, and strict data modification restrictions (weekdays & public holidays).  
 This system fully satisfies all 8 phases of the capstone project with bonus features.
+
+## Problem Statement
+
+Mobile money platforms across Africa suffer from increasing fraud activities such as abnormal transactions, unauthorized access, and identity misuse. Manual monitoring is slow and unreliable, resulting in financial losses and reduced customer trust. This system solves the problem by using automated PL/SQL intelligence to analyze transactions, detect high-risk activity, and alert administrators instantly.
+
+## Key Objectives
+
+Automatically detect fraudulent mobile money transactions
+
+Track user activities and security events
+
+Enforce weekday and holiday DML restrictions
+
+Generate alerts with fraud scores and risk levels
+
+Provide a clean Oracle-based architecture ready for BI
+
+Enhance financial safety through real-time monitoring
 
 ### Key Features Implemented
 - Real-time fraud scoring based on transaction amount and patterns
