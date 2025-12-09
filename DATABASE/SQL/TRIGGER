@@ -1,0 +1,25 @@
+CREATE OR REPLACE TRIGGER restrict_transactions
+BEFORE INSERT OR UPDATE OR DELETE ON TRANSACTIONS
+FOR EACH ROW
+DECLARE
+    v_holiday_name HOLIDAY.holiday_name%TYPE;
+BEGIN
+    -- BLOCK WEEKDAYS (MON–FRI)
+    IF TO_CHAR(SYSDATE,'DY','NLS_DATE_LANGUAGE=ENGLISH') IN ('MON','TUE','WED','THU','FRI') THEN
+        RAISE_APPLICATION_ERROR(-20001, 'DML BLOCKED: Weekday restriction');
+    END IF;
+
+    -- BLOCK HOLIDAYS
+    SELECT holiday_name INTO v_holiday_name
+    FROM HOLIDAY
+    WHERE TRUNC(holiday_date) = TRUNC(SYSDATE)
+    FETCH FIRST 1 ROW ONLY;
+
+    IF v_holiday_name IS NOT NULL THEN
+        RAISE_APPLICATION_ERROR(-20002, 'DML BLOCKED: Holiday - ' || v_holiday_name);
+    END IF;
+EXCEPTION
+    WHEN NO_DATA_FOUND THEN
+        NULL;
+END;
+/
