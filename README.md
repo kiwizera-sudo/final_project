@@ -51,7 +51,7 @@ Enhance financial safety through real-time monitoring
   Analyst Review - human reviews flagged transactions and either approves, rejects, or brokers them
 
   ### 3.Logical Model Design with data dictionary and assumptions
-  ![](https://github.com/kiwizera-sudo/final_project/blob/b8394655471ad7218f52fb874dd7aa0cf14f92f6/erd.png)
+  ![](https://github.com/kiwizera-sudo/final_project/blob/32b0090ba5a70e479f251ddbe5235c36642dc43b/erd1.png)
   ### Assumptions
 ###   Business Rules
 
