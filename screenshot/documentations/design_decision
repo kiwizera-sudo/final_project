@@ -1,0 +1,63 @@
+# Design Decisions – Safe Mobile Money Transactions & Fraud Detection
+
+## 1. Choice of Database
+
+- **Oracle 26ai / XE** selected for robust PL/SQL support, triggers, packages, and advanced analytic functions.  
+- Provides strong transaction control and security features suitable for financial applications.
+
+---
+
+## 2. Normalization & Schema Design
+
+- Tables are in **Third Normal Form (3NF)** to avoid redundancy.  
+- Separate tables for users, accounts, transactions, alerts, fraud detection, and audit logs.  
+- Ensures referential integrity through foreign keys.
+
+---
+
+## 3. Fraud Detection Approach
+
+- Real-time scoring system based on transaction amount, frequency, and destination.  
+- Threshold-based risk levels (LOW, MEDIUM, HIGH).  
+- Ensures immediate alerts for high-risk transactions.
+
+---
+
+## 4. Security & Restrictions
+
+- **Weekday & holiday restrictions** on DML operations implemented using compound triggers.  
+- **Audit logging** for every blocked or suspicious transaction.  
+- User account status (ACTIVE, BLOCKED, SUSPENDED) controls access.
+
+---
+
+## 5. PL/SQL Features
+
+- **Packages**: Encapsulate related procedures and functions for fraud detection and alerts.  
+- **Triggers**: Automate transaction checks, enforce restrictions, and log actions.  
+- **Cursors & Analytic Functions**: Efficient data retrieval and computation for BI reporting.  
+- **Procedures & Functions**: Modular and reusable for maintainability.
+
+---
+
+## 6. Assumptions
+
+- All transactions are in a single currency (RWF).  
+- `destination_number` may be a phone or account number.  
+- Negative balances allowed for overdraft.  
+- Historical alerts and audit logs are permanent.  
+
+---
+
+## 7. Monitoring & BI Integration
+
+- Tables structured for easy integration with BI dashboards.  
+- Fraud scores and alerts can feed into visual analytics for risk management.
+
+---
+
+## 8. Performance Considerations
+
+- Indexed primary and foreign keys for faster query performance.  
+- Transaction triggers optimized to minimize overhead.  
+- Data volume designed to handle real-world Rwandan mobile money transactions.
