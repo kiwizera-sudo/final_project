@@ -1,0 +1,27 @@
+2. Business Intelligence KPIs
+
+
+
+🔹 KPI 1 — Daily Fraud Count
+
+Measures number of flagged transactions per day.
+
+Helps detect fraud spikes.
+
+🔹 KPI 2 — High-Risk Customers
+
+Top 10 users with highest fraud scores.
+
+🔹 KPI 3 — Alert Frequency by Transaction Type
+
+Helps understand which types (cash-out, transfer, payment) are most risky.
+
+🔹 KPI 4 — Blocked DML Attempts
+
+Measures number of INSERT/UPDATE/DELETE actions blocked by the weekday/holiday trigger.
+
+Indicates system rule effectiveness.
+
+🔹 KPI 5 — Large Transaction Volume
+
+Count of transactions above a set threshold (e.g., >1,000,000 RWF).
