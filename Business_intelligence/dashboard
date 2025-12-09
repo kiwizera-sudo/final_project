@@ -1,0 +1,32 @@
+3. BI Dashboards (Mockup Descriptions)
+
+
+⭐ Dashboard 1: Executive Fraud Summary
+
+Total fraud cases today
+
+High-risk transactions trend (line chart)
+
+Top 5 most flagged users (bar chart)
+
+Alerts by risk level (pie chart)
+
+⭐ Dashboard 2: Transaction Behavior Dashboard
+
+Hourly transaction heatmap
+
+Average transaction amount per user
+
+High-value transaction counts
+
+Suspicious nighttime activity (after 10 PM)
+
+⭐ Dashboard 3: System Compliance Dashboard
+
+Weekday/Holiday DML violations (bar chart)
+
+Audit log summary
+
+Trigger activity report
+
+Number of blocked operations per user
