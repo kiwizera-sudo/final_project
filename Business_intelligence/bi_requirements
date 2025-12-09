@@ -1,0 +1,16 @@
+
+1. BI Requirements
+
+The Safe Mobile Money Fraud Detection System generates important operational data useful for analytics. The BI component focuses on analyzing transaction patterns, fraud alerts, and system activity to support decision-making for system administrators and mobile money providers.
+
+BI Questions the system should answer:
+
+How many fraud alerts are generated daily?
+
+Which users generate the highest number of suspicious transactions?
+
+What time of day produces the most risky activities?
+
+How many attempted (blocked) DML operations occur due to weekday/holiday restrictions?
+
+What is the trend of high-value transactions over time?
