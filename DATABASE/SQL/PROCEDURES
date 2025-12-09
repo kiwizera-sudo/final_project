@@ -1,0 +1,33 @@
+CREATE OR REPLACE PROCEDURE add_transaction(
+    p_account_id IN NUMBER,
+    p_amount     IN NUMBER,
+    p_type       IN VARCHAR2,
+    p_dest_number IN VARCHAR2
+) AS
+    v_txn_id NUMBER;
+    v_score  NUMBER;
+BEGIN
+    v_txn_id := seq_txn.NEXTVAL;
+
+    INSERT INTO TRANSACTIONS (txn_id, account_id, amount, txn_type, destination_number)
+    VALUES (v_txn_id, p_account_id, p_amount, p_type, p_dest_number);
+
+    v_score := CASE 
+                 WHEN p_amount > 2000000 THEN 95
+                 WHEN p_amount > 1000000 THEN 80
+                 ELSE 30
+               END;
+
+    IF v_score > 70 THEN
+        INSERT INTO ALERTS(alert_id, user_id, alert_message, alert_level)
+        VALUES(
+            seq_alert.NEXTVAL,
+            (SELECT user_id FROM ACCOUNTS WHERE account_id = p_account_id),
+            'High-risk transaction detected!',
+            'HIGH'
+        );
+    END IF;
+
+    COMMIT;
+END;
+/
