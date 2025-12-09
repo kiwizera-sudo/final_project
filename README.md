@@ -10,7 +10,7 @@
 
 ### Project Overview
 A production-ready Oracle PL/SQL solution that secures mobile money transactions through real-time fraud detection, automated alerts, and strict data modification restrictions (weekdays & public holidays).  
-This system fully satisfies all 8 phases of the capstone project with bonus features.
+
 
 ## Problem Statement
 
